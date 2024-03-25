@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+    
+    --Dark-grayish-blue: hsl(236, 13%, 42%); 
+    --Soft-red: hsl(5, 85%, 63%);
+    --Soft-orange: hsl(35, 77%, 62%);
+
+}
+*{
+    box-sizing: border;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Inter";
+}
+#navbarNav{
+    padding-left: 400px !important;
+}
+
+
+.link{
+    color: var(--Dark-grayish-blue);
+}
+.links ul li a:hover{
+    color: var(--Soft-red);
+}
+.article_border{
+    border-bottom: 2px solid white;
+    
+}
+.article a:hover{
+    color :var(--Soft-orange) !important;
+
+}
+.text_size{
+    font-size: 48px !important;
+    max-width: 300px;
+}
+.heading{
+    color:var(--Soft-orange) ;
+}
+aside{
+    background-color:hsl(240, 100%, 5%) !important;
+}
+
+
+.button:hover{
+    background-color:hsl(0, 0%, 0%) ;
+    border: 0px;
+ 
+  }
+.content h3:hover{
+  color:var( --Soft-red);
+
+  }
+  /* .article_img{
+    max-height: 120px !important;
+  } */
+  .article_size{
+    height: 200px;
+  }
